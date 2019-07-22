@@ -168,7 +168,7 @@
 			.attr("d", path(cityBounds))
 			.attr("class", "cityBounds")
 			.attr("fill", "transparent")
-			.attr("stroke", "#333333");
+			.attr("stroke", "#888888");
 
 		map.append("path")
 			.datum(water)
@@ -176,13 +176,13 @@
 			.attr("class", "water")
 			.attr("fill", "aqua")
 			.attr("stroke", "transparent");
-
-		map.append("path")
-			.datum(county)
-			.attr("d", path(county))
-			.attr("class", "countyLines")
-			.attr("fill", "transparent")
-			.attr("stroke", "white");
+		//
+		//		map.append("path")
+		//			.datum(county)
+		//			.attr("d", path(county))
+		//			.attr("class", "countyLines")
+		//			.attr("fill", "transparent")
+		//			.attr("stroke", "#666666");
 	}
 
 
@@ -361,16 +361,16 @@
 			.attr("transform", translate)
 			.call(yAxis)
 
-//		var bottomAxis = chart.append("g")
-//			.attr("class", "xaxis")
-//			.attr("transform",
-//				"translate(25,150)")
-//			//				  " + (chartWidth / 2) + " ," +
-//			//				(chartHeight + margin.top + 5) + ")")
-//
-//			.style("text-anchor", "middle")
-//			//			.text(cityNames)
-//			.call(xAxis);
+		//		var bottomAxis = chart.append("g")
+		//			.attr("class", "xaxis")
+		//			.attr("transform",
+		//				"translate(25,150)")
+		//			//				  " + (chartWidth / 2) + " ," +
+		//			//				(chartHeight + margin.top + 5) + ")")
+		//
+		//			.style("text-anchor", "middle")
+		//			//			.text(cityNames)
+		//			.call(xAxis);
 		chartChanges(bars, numbers, chartTitle, colorScale)
 
 
