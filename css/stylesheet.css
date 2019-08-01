@@ -18,8 +18,8 @@
 }
 
 .chart {
-	background-color: rgba(128, 128, 128, .2);
-	border: medium solid #999;
+/*	background-color: rgba(128, 128, 128, .2);*/
+/*	border: medium solid #999;*/
 	/*	float: right center;*/
 	/*	margin: 10px 20px 0 0;*/
 	width: 480px;
@@ -47,6 +47,15 @@
 	stroke-width: 3px;
 	shape-rendering: crispEdges;
 }
+<<<<<<< Updated upstream
+=======
+*/
+
+.numbers {
+	font-size: 0.8em;
+/*	fill: #666;*/
+}
+>>>>>>> Stashed changes
 
 .yaxis path,
 .yaxis line,
