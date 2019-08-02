@@ -8,9 +8,16 @@
 }
 
 
+.container {
+	margin-top: 25px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
 .map {
 
-	border: medium solid #999;
+	/*	border: medium solid #999;*/
 	/*	margin: 10px 0 0 20px;*/
 	margin-left: 40px;
 	background-color: aqua;
@@ -19,11 +26,18 @@
 
 .chart {
 	background-color: rgba(128, 128, 128, .2);
-	border: medium solid #999;
+	/*	border: medium solid #999;*/
 	/*	float: right center;*/
 	/*	margin: 10px 20px 0 0;*/
 	width: 480px;
 	margin-left: 25px;
+}
+
+.lead {
+	width: 480px;
+	text-align: center;
+	margin-bottom: 25px;
+	margin-left: 15px;
 }
 
 .tracts {
@@ -31,7 +45,7 @@
 }
 
 .chartTitle {
-	fill: #666666;
+	fill: #333;
 	font-family: sans-serif;
 	font-size: 1;
 	font-weight: bold;
@@ -114,4 +128,39 @@ nav {
 
 main {
 	padding-bottom: 100px;
+}
+
+
+.infolabel {
+	position: absolute;
+	height: 35px;
+	min-width: 100px;
+	color: #222;
+	background-color: transparent;
+	/*	border: solid thin #fff;*/
+	border: none;
+	padding: 5px 10px;
+	/*	margin-bottom: 10px;*/
+	top: -75px;
+	z-index: 999;
+}
+
+.infolabel h1,
+b {
+	margin: 0 20px 0 0;
+	padding: 0;
+	display: inline-block;
+	line-height: 1em;
+	font-size: 1.5em;
+	/*	text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;*/
+	text-shadow: 0px 0px 30px white, 0px 0px 30px white, 0px 0px 30px white, 0px 0px 10px #ccc, 0px 0px 10px #ccc;
+}
+
+#att-select {
+	margin-left: 100px;
+}
+
+#filter {
+	margin-left: -90px;
+	background-color: #F8F9FA;
 }
